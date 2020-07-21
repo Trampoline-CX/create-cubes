@@ -1,3 +1,7 @@
+# Note the other gitignore file is for Expo-CLI to correctly pick up
+# the gitignore file when using `expo init -t` :/
+#
+# Make sure you update other gitignore if you ever update this!
 node_modules/**/*
 .expo/*
 npm-debug.*

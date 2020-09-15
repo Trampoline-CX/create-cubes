@@ -7,7 +7,7 @@ export interface PostDetailScreenProps {
 
 export const PostDetailScreen: React.FC<PostDetailScreenProps> = ({ id }) => (
   <Screen>
-    <TopBar title="Transaction Detail" />
+    <TopBar title="Post Title" />
     <Screen.Content padding="medium">
       <DisplayText>ID: {id}</DisplayText>
     </Screen.Content>
